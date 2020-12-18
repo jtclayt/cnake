@@ -52,7 +52,7 @@ namespace C_nakeTests
             Assert.IsTrue(testSnake.Move(ref score));
             Assert.IsTrue(testMap.GetTile(startingHeadCoord) is SnakeBodyTile);
             Assert.IsTrue(testMap.GetTile(nextHeadCoord) is SnakeHeadTile);
-            Assert.AreEqual(score, GameConstants.AppleScore);
+            Assert.AreEqual(0, score);
         }
     }
 }
