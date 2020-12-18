@@ -98,6 +98,7 @@ namespace C_nake.Models
         /// <summary>
         /// Move the snake one tile in the current direction.
         /// </summary>
+        /// <param name="gameScore">Reference to game score.</param>
         /// <returns>bool: If the snake was able to move</returns>
         public bool Move(ref int gameScore)
         {
